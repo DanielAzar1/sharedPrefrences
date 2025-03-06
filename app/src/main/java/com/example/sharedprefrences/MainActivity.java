@@ -69,7 +69,7 @@ public class MainActivity extends AppCompatActivity {
      */
     public void exit(View view) {
         // Save data
-        editor.putString("name", tvName.getText().toString());
+        editor.putString("name ", tvName.getText().toString());
         editor.putInt("count", count);
 
         // Commit data
